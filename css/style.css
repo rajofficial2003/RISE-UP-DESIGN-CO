@@ -257,3 +257,50 @@ label {
   color: var(--text-muted);
   margin-bottom: 8px;
 }
+
+/* Mobile Responsiveness */
+@media (max-width: 768px) {
+  .section-padding {
+    padding: 60px 0;
+  }
+  
+  .hero-section {
+    padding: 120px 0 60px;
+    text-align: center !important;
+  }
+  
+  .hero-title {
+    font-size: 2.5rem;
+  }
+  
+  .navbar-collapse {
+    background-color: #151413;
+    padding: 1.5rem;
+    border-radius: 12px;
+    margin-top: 15px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.5);
+    border: 1px solid rgba(224, 174, 46, 0.1);
+  }
+
+  .nav-item {
+    text-align: left;
+    margin-bottom: 5px;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.05);
+    padding-bottom: 10px;
+    padding-top: 10px;
+  }
+  
+  .nav-item:last-child {
+    border-bottom: none;
+  }
+  
+  .nav-link {
+    padding-left: 0 !important;
+  }
+  
+  .btn-gold.ms-lg-4 {
+    display: block;
+    width: 100%;
+    margin-top: 15px !important;
+  }
+}
